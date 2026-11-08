@@ -1,5 +1,6 @@
 ---
 name: work-pr
+license: MIT
 description: Prepare or update a reviewable PR with focused diff inspection, traceable validation evidence, and required CI results. Use Azure DevOps through the user's approved Chrome DevTools UI workflow, or approved GitHub MCP for personal repositories. Stop at human review; never approve, merge, bypass policies, or deploy.
 ---
 

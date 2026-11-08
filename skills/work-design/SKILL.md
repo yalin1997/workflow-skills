@@ -1,5 +1,6 @@
 ---
 name: work-design
+license: MIT
 description: Settle the minimal architecture, component responsibilities, interfaces, data shapes, and failure behavior needed for an engineering task. Use for new systems or changes to module boundaries, public APIs, schemas, or concurrency. Prefer one justified design and human decisions over parallel design competitions.
 ---
 

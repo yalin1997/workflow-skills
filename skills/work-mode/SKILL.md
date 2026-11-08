@@ -1,5 +1,6 @@
 ---
 name: work-mode
+license: MIT
 description: Run a lean engineering workflow for software development through a verified human-reviewed PR, deep technical Markdown, concise weekly reports, or editable draw.io diagrams. Use for end-to-end tasks, multiple assigned tasks, and resuming this workflow. Route to only the necessary playbook and skills; do not merge PRs.
 ---
 

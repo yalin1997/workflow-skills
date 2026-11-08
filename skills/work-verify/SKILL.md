@@ -1,5 +1,6 @@
 ---
 name: work-verify
+license: MIT
 description: Execute focused tests and real behavior checks for an engineering change, mapping acceptance criteria to revision-specific evidence. Use before PR handoff and after changes invalidate evidence. Distinguish local Windows results, cloud CI, and unverified behavior; never claim an unrun check passed.
 ---
 
