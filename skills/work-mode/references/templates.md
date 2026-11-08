@@ -18,10 +18,14 @@
 
 ```markdown
 Revision／環境：
+受測內容：是否含未提交修改、對應 patch／變更紀錄；與最終 PR commit 的核對結果
+
 | 完成條件 | 命令或操作／輸入 | 預期 | 實測與證據 | 狀態 |
 |---|---|---|---|---|
 | AC1 | | | | PASS／FAIL／BLOCKED |
-必要 CI：run URL、驗證的 commit、結果／尚缺什麼
+
+必要案例：實際選取／執行／跳過摘要與原因（可連既有測試報告）
+必要 CI：run URL、source commit、可取得的 target／實際受測提交、目前 policy 結果／尚缺什麼
 跳過與限制：
 ```
 
@@ -38,7 +42,9 @@ Revision／環境：
 ## 交接或恢復
 
 ```markdown
-目前 revision／工作目錄：
+任務／契約連結（含完成條件與待決事項）：
+目前 branch／revision／工作目錄及未提交修改：
+PR／待完成 CI run 連結與目前狀態：
 已完成／證據位置：
 未完成與阻擋：
 下一個具體動作：

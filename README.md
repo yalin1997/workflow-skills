@@ -56,7 +56,7 @@ Harness 負責模型、工具、命令權限、網路與檔案隔離、session�
 
 公司使用前，將已核准的 repo／檔案範圍、命令、模型端點、網站與 Azure 組織／專案範圍提供給 Harness；不必另外建立本套件專用設定檔。安全執行規則見 [principles.md](skills/work-mode/references/principles.md)。Markdown 不能提供硬隔離；未有實際限制時，不得宣稱已防止資料外洩。
 
-多項任務由現有 Harness 配置獨立 session／工作目錄，或依序執行。本套件不加入排程器，也不自行啟動 subagents。
+多項任務由現有 Harness 配置獨立 session／工作目錄，或依序執行。並行操作前也須確認會變動的 DB、port、queue 或輸出位置已隔離；共享資源無法隔離時，只將有衝突的步驟依序執行。本套件不加入排程器，也不自行啟動 subagents。
 
 ## 導入與調整
 
